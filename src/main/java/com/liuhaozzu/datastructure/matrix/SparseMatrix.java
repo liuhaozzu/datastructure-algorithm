@@ -1,6 +1,5 @@
 package com.liuhaozzu.datastructure.matrix;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
 
 import java.util.Arrays;
 
