@@ -2,6 +2,7 @@ package com.liuhaozzu.datastructure.graph.digraph;
 
 import com.liuhaozzu.datastructure.graph.symbolgraph.SymbolGraph;
 import com.liuhaozzu.datastructure.graph.symbolgraph.impl.SymbolGraphImpl;
+import com.liuhaozzu.datastructure.graph.weightdigraph.EdgeWeightedDigraph;
 
 import java.io.IOException;
 
@@ -16,11 +17,15 @@ public class Topological {
         }
     }
 
+    public Topological(EdgeWeightedDigraph g) {
+
+    }
+
     boolean isDAG() {
         return order != null;
     }
 
-    Iterable<Integer> order() {
+    public Iterable<Integer> order() {
         return order;
     }
 
