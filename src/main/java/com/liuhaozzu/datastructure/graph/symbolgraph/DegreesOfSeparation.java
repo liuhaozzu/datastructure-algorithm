@@ -3,7 +3,6 @@ package com.liuhaozzu.datastructure.graph.symbolgraph;
 import com.liuhaozzu.datastructure.graph.Graph;
 import com.liuhaozzu.datastructure.graph.path.BreadthFirstPaths;
 import com.liuhaozzu.datastructure.graph.symbolgraph.impl.SymbolGraphImpl;
-import edu.princeton.cs.algs4.StdIn;
 
 import java.io.IOException;
 
@@ -22,7 +21,7 @@ public class DegreesOfSeparation {
         }
         int s = sg.index(source);
         BreadthFirstPaths bfs = new BreadthFirstPaths(G, s);
-        while (!StdIn.isEmpty()) {
+        /*while (!StdIn.isEmpty()) {
             String sink = StdIn.readLine();
             if (sg.contains(sink)) {
                 int t = sg.index(sink);
@@ -36,6 +35,6 @@ public class DegreesOfSeparation {
             } else {
                 System.out.println("not in database");
             }
-        }
+        }*/
     }
 }

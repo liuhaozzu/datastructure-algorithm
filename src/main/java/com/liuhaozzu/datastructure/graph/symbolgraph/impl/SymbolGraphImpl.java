@@ -2,7 +2,6 @@ package com.liuhaozzu.datastructure.graph.symbolgraph.impl;
 
 import com.liuhaozzu.datastructure.graph.Graph;
 import com.liuhaozzu.datastructure.graph.symbolgraph.SymbolGraph;
-import edu.princeton.cs.algs4.StdIn;
 
 import java.io.*;
 import java.util.HashMap;
@@ -90,12 +89,12 @@ public class SymbolGraphImpl implements SymbolGraph {
         Graph G = sg.G();
         System.out.println(G.V());
 
-        while (StdIn.hasNextLine()) {
+        /*while (StdIn.hasNextLine()) {
             String source = StdIn.readLine();
             for (int w : G.adj(sg.index(source))) {
                 System.out.println("    "+sg.name(w));
             }
-        }
+        }*/
             /*String source = "'Breaker' Morant (1980)";
             for (int w : G.adj(sg.index(source))) {
                 //System.out.println("w:" + w);;

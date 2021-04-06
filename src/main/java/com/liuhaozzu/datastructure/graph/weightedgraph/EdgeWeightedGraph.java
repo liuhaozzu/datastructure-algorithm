@@ -1,7 +1,6 @@
 package com.liuhaozzu.datastructure.graph.weightedgraph;
 
 import com.liuhaozzu.datastructure.graph.Bag;
-import edu.princeton.cs.algs4.In;
 
 import java.io.*;
 
